@@ -1,18 +1,24 @@
-<head>
+<script>
+  function change1(){
+  var name="John";
+  var age;
+  const YOUTH = 18; 
+if (age > YOUTH)
+{
+  console.log("hello oneonta"+ name);
+  output="hello oneonta"+ name
+}
+else
+{
+    console.log("Hello Junior");
+  output="hello junior"+ name
+}
   
-  <script>
-    var name="John";
-    var age;
-    const YOUTH = 13; 
-      if (age > YOUTH)
-      {
-        console.log("hello oneonta"+ name);
-      }
-      else
-      {
-      console.log("Hello Junior")
-      }
-  
+    target=document.getElementById(id1)
+    target.innerhtml=output 
+  }
   </script>
+      <body>
+    <h1 id="id1"> Old heading</h1>
+      </body>
 
-</head>head>
